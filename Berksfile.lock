@@ -1,0 +1,22 @@
+DEPENDENCIES
+  apt
+  conjur-client
+    git: git@github.com:conjur-cookbooks/conjur-client.git
+    revision: f2f9548f57f75c630d79b3bd5499cd8ced75b994
+  sshd-service
+    git: git@github.com:conjur-cookbooks/sshd-service.git
+    revision: 37c963a2b1ee3cf7b826e82d8f4e385440deddbc
+  terminal-login
+    git: git@github.com:conjur-cookbooks/terminal-login.git
+    revision: 366cb8c16849e5b4af9eb6b56a3b690dd49b84b6
+
+GRAPH
+  apt (2.3.10)
+  build-essential (2.0.0)
+  conjur-client (0.3.0)
+    build-essential (>= 0.0.0)
+  sshd-service (1.0.0)
+  terminal-login (0.2.0)
+    apt (>= 0.0.0)
+    conjur-client (>= 0.0.0)
+    sshd-service (>= 0.0.0)
