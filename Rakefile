@@ -10,6 +10,8 @@ end
 
 desc "Package cookbooks into a chef-solo tarball"
 task :package => :vendor do
+  `mkdir -p vendor/cookbooks/conjur-ssh`
+  `cp -r metadata.rb Berksfile Berksfile.lock attributes recipes spec vendor/cookbooks/conjur-ssh`
   version=`git describe --tags --abbrev=0`.strip
   Dir.chdir 'vendor'
   tarball = "conjur-ssh-#{version}.tar.gz"
