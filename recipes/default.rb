@@ -4,6 +4,4 @@ include_recipe "conjur-client::ssl_certificate" if node.conjur['ssl_certificate'
 include_recipe "terminal-login::install" 
 include_recipe "terminal-login::sudoers" if node['conjur-ssh'].install_sudoers
 include_recipe "terminal-login::configure" if node['conjur-ssh'].configure
-unless ('amazon' == node['platform'] ) 
-  include_recipe "terminal-login::logshipper"
-end
+include_recipe "terminal-login::logshipper"
