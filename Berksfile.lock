@@ -8,7 +8,7 @@ DEPENDENCIES
     revision: 4bee44a761ead1f8ab489523c542e5c59fcd35e8
   terminal-login
     git: git@github.com:conjur-cookbooks/terminal-login.git
-    revision: 31025f8892bd2ee9ec7736efe808d531a771efce
+    revision: d1aa5521059bf17d441453a8404be3a4aadbe4a4
 
 GRAPH
   apt (2.5.3)
