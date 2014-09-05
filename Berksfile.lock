@@ -8,7 +8,7 @@ DEPENDENCIES
     revision: 4bee44a761ead1f8ab489523c542e5c59fcd35e8
   terminal-login
     git: git@github.com:conjur-cookbooks/terminal-login.git
-    revision: d1aa5521059bf17d441453a8404be3a4aadbe4a4
+    revision: c6de7798bb6583da5d6f391eddce47e9422705ca
 
 GRAPH
   apt (2.5.3)
@@ -22,4 +22,4 @@ GRAPH
     conjur-client (>= 0.0.0)
     sshd-service (>= 0.0.0)
     yum (>= 0.0.0)
-  yum (3.2.4)
+  yum (3.3.1)
