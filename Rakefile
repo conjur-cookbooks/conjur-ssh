@@ -4,7 +4,7 @@ desc "Update vendor/cookbooks"
 task :vendor do
   puts "Vendoring cookbooks"
   `rm -rf vendor`
-  `berks update`
+  `berks install`
   `berks vendor vendor/cookbooks`
 end
 
