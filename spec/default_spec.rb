@@ -1,4 +1,3 @@
-require 'chefspec'
 require 'spec_helper'
 
 describe "conjur-ssh::default" do
