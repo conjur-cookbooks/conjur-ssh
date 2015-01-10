@@ -3,7 +3,7 @@ maintainer        'Conjur, Inc.'
 maintainer_email  'kgilpin@conjur.net'
 license           'Apache 2.0'
 description       'Installs Conjur SSH'
-version           '1.2.4'
+version           '1.2.5'
 
 attribute 'conjur-ssh/install_client',
   description: "Whether to install the Conjur CLI",

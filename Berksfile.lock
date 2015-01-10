@@ -8,7 +8,7 @@ DEPENDENCIES
     revision: 4bee44a761ead1f8ab489523c542e5c59fcd35e8
   terminal-login
     git: git@github.com:conjur-cookbooks/terminal-login.git
-    revision: fdb9c53a6776f44dfa8ab70edb930604d7ae0193
+    revision: 47fac9684a28141f10b85ead4868648e50fdd26c
 
 GRAPH
   apt (2.6.1)
@@ -17,7 +17,7 @@ GRAPH
     build-essential (>= 0.0.0)
   sshd-service (1.1.0)
     apt (>= 0.0.0)
-  terminal-login (0.2.2)
+  terminal-login (0.2.3)
     apt (>= 0.0.0)
     conjur-client (>= 0.0.0)
     sshd-service (>= 0.0.0)
